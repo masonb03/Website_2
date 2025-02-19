@@ -68,3 +68,20 @@ section{
     color: white;
     font-size: 30px;
 }
+
+.port{
+    height: 400px;
+    width: 600px;
+    border-top: solid 2px white;
+}
+
+
+.portMain{
+    color: white;
+    display: grid;
+    font-size: 30px;
+}
+
+.pa{
+    margin-top: -20px;
+}
