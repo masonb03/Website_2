@@ -53,3 +53,18 @@ img{
     margin-top: 3.5rem;
     font-size: 25px;
 }
+
+section{
+    display: block;
+    width: 900px;
+    display: grid;
+}
+
+.im{
+ height: 400px;
+}
+
+.about{
+    color: white;
+    font-size: 30px;
+}
