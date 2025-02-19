@@ -85,3 +85,7 @@ section{
 .pa{
     margin-top: -20px;
 }
+
+#quote{
+    font-style: italic;
+}
