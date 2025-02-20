@@ -17,33 +17,36 @@
                 <a class="active" href="contact.html">Contact</a>
             </div>
     </nav>
-    <main>
-        <h1>My Contact</h1>
-        <h3>I hope you were able to learn something about me adn I hope you can see how muhc I want to enjoy everything I do. If you ever want to reach out to me, fill out the information below.</h3>
+
+    <img src="./images/Contact.jpg">
+            
+    <main class="cont">
+        <h1 class="contHead">My Contact</h1>
+        <h3 class="contsum">I hope you were able to learn something about me and I hope you can see how much I want to enjoy everything I do. If you ever want to reach out to me, fill out the information below.</h3>
     
-        <form>
-            <div>
-            <label for="text">
-                Name:
-                <input type="text" id="text" name="name"/>
-            </label>
+        <form id="form">
+            <div class="tx">
+                <label for="text">
+                    Name:
+                </label>
+                    <input type="text" id="text" name="name"/>
             </div>
 
-            <div>
-            <label for="email">
-                Email:
-                <input type="email" id="email" name="Email"/>
-            </label>
+            <div class="em">
+                <label for="email">
+                    Email:
+                </label>
+                    <input type="email" id="email" name="Email"/>
             </div>
 
-            <div>
-            <label for="msg">
-                Message:
-              <textarea name="message" id="msg" rows="5" cols="30"></textarea>
-            </label>
+            <div class="ms">
+                <label for="msg">
+                    Message:
+                </label>
+                    <textarea name="message" id="msg" rows="5" cols="30" placeholder="Write your message here..."></textarea>
             </div>
 
-            <input type="submit" value="Submit"/>
+            <input type="submit" id="Submit"/>
         </form>
     </main>
 </body>

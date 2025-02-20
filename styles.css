@@ -20,6 +20,12 @@ nav{
     font-size: 20px;
 }
 
+a:hover{
+    background: grey;
+    font-size: 22px;
+    transition: 500ms;
+}
+
 a{
     color: white;
     text-decoration: none;
@@ -89,4 +95,62 @@ section{
 #quote{
     font-style: italic;
     font-size: 18px;
+}
+
+.cont{
+    color: white;
+    margin-top: 15em;
+    margin-left: 200px
+}
+
+.contHead{
+    font-size: 70px;
+    border-bottom: solid 2px white;
+    margin-left: 1000px;
+    width: 400px;
+}
+
+.contsum{
+    margin-left: 1000px;
+    width: 400px;
+}
+
+#form{
+    font-size: 30px;
+    padding-left: 550px;
+}
+
+.ms{
+    width: 800px;
+    margin-left: 325px;
+}
+
+.em{
+    width: 800px;
+    margin-left: 360px
+}
+
+.tx{
+    width: 800px;
+    margin-left: 360px;
+}   
+
+#Submit{
+    font-size: 15px;
+    margin-left: 356px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+#text{
+    width: 231px;
+}
+
+#email{
+    width: 231px;
+}
+
+#Submit:hover{
+    font-size: 22px;
+    transition: 500ms;
 }
