@@ -154,3 +154,9 @@ section{
     font-size: 22px;
     transition: 500ms;
 }
+
+#Thanks{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
