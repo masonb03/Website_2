@@ -35,7 +35,7 @@ a{
 img{
     height:870px;
     float: left;
-    margin: 0 10px 10px 0;
+    margin: 0 10px px 0;
 }
 
 .home{
@@ -73,6 +73,11 @@ section{
 .about{
     color: white;
     font-size: 30px;
+}
+
+li:nth-child(odd){
+    font-size: 40px;
+    font-style:italic !important;
 }
 
 .port{
@@ -135,9 +140,11 @@ section{
     margin-left: 360px;
 }   
 
-#Submit{
+#submit{
+    height: 25px;
+    width: 110px;
     font-size: 15px;
-    margin-left: 356px;
+    margin-left: 367px;
     margin-bottom: 20px;
     background-color: white;
 }
@@ -150,7 +157,13 @@ section{
     width: 231px;
 }
 
-#Submit:hover{
-    font-size: 22px;
+#submit:hover{
+    font-size: 17px;
     transition: 500ms;
+}
+
+@media(max-width:900px){
+
+    
+
 }
